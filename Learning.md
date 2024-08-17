@@ -47,3 +47,10 @@
 - pull
   - git pull `origin`
   - this fetches and merges the latest version of the project from github.
+- Creating branches on Github
+  1. Go on Github
+  2. Click on the master branch
+  3. Create the new branch
+  4. Pull to local
+- Creating branches on local and pushing to git
+  - 
