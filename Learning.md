@@ -31,6 +31,19 @@
   - git merge `name`
   - conflicts
 
-## GitHub
+## Github
 
--
+- Creating account
+- Adding a remote repo
+  - git remote add `origin` , `link to repo`
+- pushing to a repo
+  - git push --set-upstream `origin master`
+- Editing directly on github
+  - clicking on a file and editing it however then commiting the changes.
+- fetch
+  - a command that fetches a change from a remote repo but does not merge with the local repo
+- merge
+  - you know what merge does
+- pull
+  - git pull `origin`
+  - this fetches and merges the latest version of the project from github.
