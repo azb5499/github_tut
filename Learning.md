@@ -53,4 +53,9 @@
   3. Create the new branch
   4. Pull to local
 - Creating branches on local and pushing to git
-  - 
+  1. Create your local branch
+  2. Do whatever
+  3. Save changes and commit
+  4. git push `origin branchNameToCommit`
+- Branch
+  - `git branch -a`. Shows all branches, local and remote 
