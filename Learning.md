@@ -30,6 +30,8 @@
 - merge
   - git merge `name`
   - conflicts
+- reset
+  - `git reset`. Unstages changes
 
 ## Github
 
@@ -59,3 +61,5 @@
   4. git push `origin branchNameToCommit`
 - Branch
   - `git branch -a`. Shows all branches, local and remote 
+- Deleting a branch locally then reflecting those changes on github
+  - `git push origin --delete branchName`
