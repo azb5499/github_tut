@@ -60,6 +60,18 @@
   3. Save changes and commit
   4. git push `origin branchNameToCommit`
 - Branch
-  - `git branch -a`. Shows all branches, local and remote 
+  - `git branch -a`. Shows all branches, local and remote
 - Deleting a branch locally then reflecting those changes on github
   - `git push origin --delete branchName`
+- Merging pull requests directly on github
+  1. Click compare and pull requests
+  2. Create pull request
+  3. Add additional info and follow steps.
+- The GitHub flow
+  1. Create a branch for a feature
+  2. Make File changes and add commits
+  3. Push changes to remote repo
+  4. Create a pull request
+  5. Review the changes
+  6. Deploy branch to check for errors before merging with master
+  7. Merge if successful
