@@ -35,6 +35,8 @@
 
 ## Github
 
+[W3Schools Github tutorial](https://www.w3schools.com/git/git_remote_getstarted.asp?remote=github)
+
 - Creating account
 - Adding a remote repo
   - git remote add `origin` , `link to repo`
@@ -75,3 +77,10 @@
   5. Review the changes
   6. Deploy branch to check for errors before merging with master
   7. Merge if successful
+- Github pages
+  1. Create a new repo
+  2. Save the repo's name with the trailing file extension of `.github.io`
+  3. Connect repo to computer the normal way. The whole `git remote add origin LINKTOREPOHERE`
+  4. Push changes or files to Github
+  5. Confirm files existence
+  6. Check the pages settings for the repo and the link to the github page hosting the website should be there.
