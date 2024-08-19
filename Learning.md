@@ -117,7 +117,8 @@ Repos can be either be cloned to keep a copy of on your local machine or contrib
   4. Add custom notes to explain what the pull request is about.
   5. Submit pull request.
   6. Members who have access to original repo can view the pull request, approve, comment and merge.
-- .gitignore
+- .gitignore 
+  [.gitignore rules](https://www.w3schools.com/git/git_ignore.asp?remote=github)
   1. navigate to project route folder.
   2. run the `touch .gitignore` command.
   3. Open the `.gitignore` file and enter the names of the files that you want git to not track.
