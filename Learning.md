@@ -84,3 +84,42 @@
   4. Push changes or files to Github
   5. Confirm files existence
   6. Check the pages settings for the repo and the link to the github page hosting the website should be there.
+- Github fork
+  1. Select a repo of someone elses you wish to copy or work on yourself or contribute to theirs.
+  2. At the top right hand corner you should see an option called `fork`
+  3. Select `fork` and this will then be added to your accounts repositories.
+  4. You have succesfully created a fork of someone elses repo.
+- Cloning a repo
+
+```
+Repos can be either be cloned to keep a copy of on your local machine or contribute to someone elses github repo.
+```
+
+  1. Navigate to the folder you wish to store this git repo in. Open a git bash window here.
+  2. Once a fork has been created of desired repo on github. Select the `Code` button of the original repo that was cloned from and copy the repo URL.
+  3. Run the `git clone LINKTOREPOHERE` command which will copy the repo to your local machine.
+  4. Test if the file is in the location specified by using dir/ls or by checking file explorer at location.
+  5. Verify if all commit history is present by using `git log`.
+  6. Run the `git remote -v` command to check all remotes.
+  7. Configure the current remote from `origin` (the most likely name since origin is the name of a repo you own on github and since this was copied from someone elses repo that they owned and doesnt belong to us, by convention we have to rename this remote to `upstream`)
+     1. Run `git remote rename origin upstream`. Origin can be replaced with whatever they named their repo but most likely it will be named origin.
+     2. check the name by running `git remote -v`.
+  8. Fetch the URL of the fork on your GitHub account.
+     1. Navigate to your account and the fork you created.
+     2. Select the code button and copy the repo URL.
+     3. Run `git remote add origin LINKGOESHERE`.
+     4. Run `git remote -v` to check if process was successful.
+
+- Github pull requests
+  1. Commit changes made to the local repo.
+  2. Push the changes made to the remote repo, our own fork.
+  3. Create a pull request from the forked repo to the original repo.
+  4. Add custom notes to explain what the pull request is about.
+  5. Submit pull request.
+  6. Members who have access to original repo can view the pull request, approve, comment and merge.
+- .gitignore
+  1. navigate to project route folder.
+  2. run the `touch .gitignore` command.
+  3. Open the `.gitignore` file and enter the names of the files that you want git to not track.
+  4. For file types you can type `*.FILEEXTENSION`. e.g. `*.png`. This will ignore all png files.
+  5. for folders you can type `FOLDERNAME/`. e.g. `images/` this will ignore everything in the images folder.
